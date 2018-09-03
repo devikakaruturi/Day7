@@ -12,7 +12,7 @@ class VowelsTest {
 
 	@Test
 	void test() {
-		File file=new File("C:\\devika\\devika.txt");
-		assertEquals(36,Vowels.countVowels(file));
+		File file=new File("C:\\devika\\devika1.txt");
+		assertEquals(5,Vowels.countVowels(file));
 	}
 }

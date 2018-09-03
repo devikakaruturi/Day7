@@ -7,8 +7,7 @@ import java.io.ObjectOutputStream;
 import java.util.Random;
 
 public class BinaryInteger {
-
-	public static int writeBinary(File file) {
+public static int writeBinary(File file) {
 		
 		try(ObjectOutputStream objectOutput=new ObjectOutputStream(new FileOutputStream(file)))
 	     {
@@ -28,5 +27,4 @@ public class BinaryInteger {
 
 		return 1;
 	}
-
 }

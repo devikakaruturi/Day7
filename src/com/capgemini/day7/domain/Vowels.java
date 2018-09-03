@@ -34,7 +34,7 @@ public class Vowels {
 		{
 			e.printStackTrace();
 		}
-		return count-1;
+		return count;
 		
 	}
 	
